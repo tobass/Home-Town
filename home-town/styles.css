@@ -16,9 +16,10 @@ body {
   justify-content: start;
   align-items: center;
   flex-direction: column;
-  width: 720px;
+  max-width: 720px;
   height: max-content;
   margin: 0 auto;
+  padding: 0;
   border-left: 5px solid #ffffff;
   border-right: 5px solid #ffffff;
   box-shadow: 0 0 10px rgba(78, 118, 84, 0.33);
@@ -36,7 +37,7 @@ img {
   background-image: url(/img/Ludwigslust_Schloss.jpeg);
   background-size: cover;
   background-position: 0% 90%;
-  width: 720px;
+  width: 100%;
   height: 350px;
   margin: 0 auto;
 }
@@ -47,7 +48,7 @@ img {
   padding: 10px 20px;
   line-height: 37px;
   margin: 220px auto 0 auto;
-  width: 260px;
+  max-width: 260px;
   border-radius: 10px;
   font-weight: bold;
   font-size: 30px;
@@ -59,7 +60,7 @@ img {
   background: #7cb4b1;
   padding: 10px;
   color: rgb(0, 0, 0);
-  width: 400px;
+  max-width: 400px;
   border-radius: 10px;
   margin: 10px auto 40px auto;
   font-weight: lighter;
@@ -76,6 +77,7 @@ img {
   display: block;
   background-color: #f1faee;
   height: 500px;
+  width: 100%;
   margin: 0 auto;
   padding-top: 0px;
 }
@@ -88,7 +90,7 @@ img {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  width: 720px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -112,7 +114,7 @@ h3 {
   display: flex;
   justify-content: center;
   height: 300px;
-  width: 720px;
+  width: 100%;
   background-color: #ffffff;
   border-top: 2px dotted #7cb4b1;
   padding-top: 40px;
@@ -139,7 +141,7 @@ h3 {
 }
 
 #guide-img {
-  width: 160px; 
+  width: 160px;
   border-radius: 10px;
   border: 2px dotted #7cb4b1;
   margin: auto 0;
